@@ -1,4 +1,3 @@
-
 # **Project Title**
 
 This is a very easy weather app.
@@ -10,7 +9,6 @@ This is a very easy weather app.
 - [About](#about)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -36,20 +34,16 @@ The weather app takes a name of a city and it provides a weather condition for t
    ```bash
    git clone https://github.com/yourusername/projectname.git
    ```
-2. Install dependencies:
+2. Make file called apikey.js:
+   Inside that file:
+
    ```bash
-   npm install
-   ```
-3. Run the project:
-   ```bash
-   npm start
+    const API_Key = "INSERT_YOUR_API_KEY";
+    export default API_Key;
+
    ```
 
----
-
-## **Usage**
-
-Basic instructions on how to use the project.
+3. Run the project in the web:
 
 ---
 
@@ -67,8 +61,4 @@ Licensed under MIT License.
 
 ## **Contact**
 
-Your Name - [Email](mailto:your.email@example.com)
-
----
-
-This version is more concise while still providing all the essential information!
+Lemi Bekele - [Email](mailto:lemibek@gmail.com)
